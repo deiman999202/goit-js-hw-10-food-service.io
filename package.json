@@ -1,0 +1,23 @@
+{
+  "name": "goit-js-hw10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service.io/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://deiman999202.github.io/goit-js-hw-10-food-service.io",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.1",
+    "handlebars": "^4.7.7",
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
